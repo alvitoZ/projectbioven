@@ -541,3 +541,197 @@ nav {
 .section6Child > div:nth-of-type(2) {
   padding-top: 80px;
 }
+
+.section7 {
+  width: 100%;
+  background-color: rgb(0, 235, 12);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.section7Child {
+  width: 70%;
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bungkus2 {
+  width: max-content;
+}
+.bungkus2 > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tulisan5,
+.tulisan6 {
+  font-family: "Open Sans";
+}
+.jarak {
+  padding-left: 30px;
+}
+.jarak > div:nth-of-type(2),
+.jarak2 > div:nth-of-type(2) {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 34px;
+  text-transform: lowercase;
+  color: #ffffff;
+}
+
+.jarak2 {
+  padding-right: 75px;
+}
+
+.kotak4 {
+  display: flex;
+}
+
+.kotak4 > div {
+  height: 500px;
+  width: 300px;
+}
+.kotak4 > div:nth-of-type(1) {
+  background-color: white;
+  margin-top: 20px;
+  z-index: 1;
+}
+.kotak4 > div:nth-of-type(2) {
+  background-color: yellow;
+}
+
+.apa2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 12px;
+  background-color: #fe8c12;
+  border-radius: 2px;
+  width: 160px;
+  height: 50px;
+}
+
+.apa2 > img {
+  padding-left: 10px;
+}
+
+.form {
+  display: flex;
+  padding-left: 50px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.first {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #0a0a0b;
+}
+
+.formChild {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 40px;
+  width: 250px;
+  padding-left: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #686c73;
+  background: #f5f5f5;
+}
+
+.formChild2 {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 20px;
+  height: 130px;
+  width: 250px;
+  padding-left: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #686c73;
+  background: #f5f5f5;
+}
+.pembungkus {
+  margin: auto;
+  background-color: white;
+
+  width: 100%;
+
+  margin-top: -30px;
+}
+
+.gambar6 {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+}
+
+.section8 {
+  width: 100%;
+  background-image: url(./assets/img/BG7.png);
+  height: 150px;
+}
+
+.section8Child {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.apa3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  color: #0a0a0b;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 2px;
+  width: 160px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.apa3 > img {
+  padding-left: 10px;
+}
+
+.apa4 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #ffffff;
+}

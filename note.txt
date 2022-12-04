@@ -1,0 +1,10 @@
+responsive pagination line 197
+  display: flex;
+  align-items: flex-end;
+  padding-left: 900px;
+
+body 
+     /* body {
+        margin: auto;
+        width: max-content;
+      } */
